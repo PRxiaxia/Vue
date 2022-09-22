@@ -5,9 +5,9 @@ spring:
   #利用 Spring 添加数据源信息
   datasource:
     #使用jdbc的驱动方式连接数据库
-    url: jdbc:mysql://localhost:3308/book?characterEncoding=utf-8&useSSL=false&serverTimezone=UTC
+    url: jdbc:mysql://localhost:3306/book?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf-8&useSSL=falseC
     username: root
-    password: hanmengdi130
+    password: 123
     driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     show-sql: true  #打印sql
